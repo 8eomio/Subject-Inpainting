@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Paint_by_Example.egg-info/PKG-INFO
+Paint_by_Example.egg-info/SOURCES.txt
+Paint_by_Example.egg-info/dependency_links.txt
+Paint_by_Example.egg-info/requires.txt
+Paint_by_Example.egg-info/top_level.txt

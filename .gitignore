@@ -1,0 +1,8 @@
+dataset/
+.ipynb_checkpoints/
+models/
+experiments/
+pretrained_models/
+results/
+checkpoints/
+
