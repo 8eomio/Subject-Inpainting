@@ -57,7 +57,7 @@ subject-images
 ```
 
 ### Download the pretrained model of Stable Diffusion
-We utilize the pretrained Paint-by-Example as initialization, please download the pretrained models from [Hugging Face](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) and save the model to directory `pretrained_models`. Then run the following script to add zero-initialized weights for 5 additional input channels of the UNet (4 for the encoded masked-image and 1 for the mask itself).
+We utilize the pretrained Paint-by-Example as initialization, please download the pretrained checkpoints from [PbE pretrained Checkpoints](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) and save the model to directory `pretrained_models`.
 
 ### Training
 To train a new model on Open-Images, you can use `main.py`. For example,
