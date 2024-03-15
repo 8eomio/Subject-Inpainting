@@ -66,6 +66,15 @@ python -u main.py \
 --scale_lr False
 ```
 
+## Result
+
+This is qualitative results of our model. The first column is input images of our model which is source image (first row) and masked image (second row) 
+The second column is reference images
+The third column is results of our model
+![result1](figure/result1.png)
+![result2](figure/result2.png)
+![result3](figure/result3.png)
+![result4](figure/result4.png)
 
 
 ## Acknowledgements
