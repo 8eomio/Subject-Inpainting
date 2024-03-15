@@ -61,7 +61,7 @@ subject-images
 │  ├── bbox
 ```
 
-### Download the pretrained model of Stable Diffusion
+### Download the pretrained model of Paint-by-Example
 We utilize the pretrained Paint-by-Example as initialization, please download the pretrained checkpoints from [PbE pretrained Checkpoints](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) and save the model to directory `pretrained_models`.
 
 ### Training Model 
