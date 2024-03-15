@@ -1,5 +1,5 @@
 # Subject Inpainting 
-![Teaser](figure/conceptual_framework.png)
+![Teaser](figure/teaser.png)
 
 <!-- <br> -->
 [Beomjo Kim](https://orcid.org/0000-0003-4110-1986), [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/group)
