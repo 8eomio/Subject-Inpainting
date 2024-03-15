@@ -23,7 +23,7 @@ We have another virtual environment for data preprocessing, this is because the 
 the data preprocessing environment can be created and activated with:
 
 ```
-conda env create -f environment.yml
+conda env create -f segment_env.yaml
 conda activate lsa
 ```
 
