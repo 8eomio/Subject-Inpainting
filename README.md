@@ -11,7 +11,7 @@ Keywords: Diffusion Models, Image Generation, Image Inpainting, Subject-Driven G
 
 
 ## Requirements
-A suitable [conda](https://conda.io/) environment named `Paint-by-Example` can be created
+A suitable [conda](https://conda.io/) environment named `Subject-Inpainting` can be created
 and activated with:
 
 ```
@@ -19,8 +19,16 @@ conda env create -f environment.yaml
 conda activate Subject-Inpainting
 ```
 
+We have another virtual environment for data preprocessing, this is because the existing environment is incompatible with data preprocessing models. 
+the data preprocessing environment can be created and activated with:
+
+```
+conda env create -f environment.yml
+conda activate lsa
+```
+
 ## Pretrained Model
-We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) | [Hugging Face](https://huggingface.co/Fantasy-Studio/Paint-by-Example/resolve/main/model.ckpt)) that is trained on [Open-Images](https://storage.googleapis.com/openimages/web/index.html) for 40 epochs. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
+We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) | [Hugging Face](https://huggingface.co/Fantasy-Studio/Paint-by-Example/resolve/main/model.ckpt)) that is trained on [dreambooth](https://storage.googleapis.com/openimages/web/index.html). 
 
 ## Testing
 
@@ -56,7 +64,7 @@ subject-images
 ### Download the pretrained model of Stable Diffusion
 We utilize the pretrained Paint-by-Example as initialization, please download the pretrained checkpoints from [PbE pretrained Checkpoints](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) and save the model to directory `pretrained_models`.
 
-### Training
+### Training Model 
 To train a new model on Open-Images, you can use `main.py`. For example,
 ```
 python -u main.py \
@@ -80,6 +88,7 @@ The third column is results of our model
 ## Acknowledgements
 
 This code borrows heavily from [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [Paint-by-Example](https://github.com/Fantasy-Studio/Paint-by-Example). For the bounding box annotator code, we used [lang-segment-anything](https://github.com/luca-medeiros/lang-segment-anything/blob/main/environment.yml).
+
 ## Maintenance
 
 Please open a GitHub issue for any help. If you have any questions regarding the technical details, feel free to contact us.
