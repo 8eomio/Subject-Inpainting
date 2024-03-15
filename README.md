@@ -28,7 +28,7 @@ conda activate lsa
 ```
 
 ## Pretrained Model
-We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) | [Hugging Face](https://huggingface.co/Fantasy-Studio/Paint-by-Example/resolve/main/model.ckpt)) that is trained on [dreambooth](https://storage.googleapis.com/openimages/web/index.html). 
+We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) that is trained on [dreambooth](https://github.com/google/dreambooth). 
 
 ## Testing
 
