@@ -1,5 +1,5 @@
 # Subject Inpainting 
-![Teaser](figure/teaser.png)
+![Teaser](figure/expr1.png)
 
 <!-- <br> -->
 [Beomjo Kim](https://orcid.org/0000-0003-4110-1986), [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/group)
@@ -30,9 +30,6 @@ python scripts/inference_origin.py --plms --outdir results --config configs/v1.y
 
 ```
 
-Visualization of inputs and output:
-
-![](figure/expr1.png)
 
 ## Training
 
