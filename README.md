@@ -28,7 +28,7 @@ conda activate lsa
 ```
 
 ## Pretrained Model
-We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) that is trained on [dreambooth](https://github.com/google/dreambooth). 
+We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) that is trained on [dreambooth](https://github.com/google/dreambooth) dataset. 
 
 ## Testing
 
