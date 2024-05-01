@@ -15,7 +15,7 @@ A suitable [conda](https://conda.io/) environment named `Subject-Inpainting` can
 and activated with:
 
 ```
-conda env create -f environment.yaml
+conda env create -f environment.yml
 conda activate Subject-Inpainting
 ```
 
