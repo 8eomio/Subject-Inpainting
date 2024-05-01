@@ -24,6 +24,9 @@ the data preprocessing environment can be created and activated with:
 
 ```
 conda env create -f segment_env.yaml
+git clone https://github.com/IDEA-Research/GroundingDINO.git
+cd Groundingdino
+pip install -e .
 conda activate lsa
 ```
 
