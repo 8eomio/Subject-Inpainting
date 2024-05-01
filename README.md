@@ -59,9 +59,9 @@ python scripts/make_Bbox.py --target_dir [subject image directory] --text_prompt
 The data structure is like this:
 ```
 dataset
-subject-images
-│  ├── images
-│  ├── bbox
+│  subject-images
+│  │  ├── images
+│  │  ├── bbox
 ```
 
 ### Download the pretrained model of Paint-by-Example
