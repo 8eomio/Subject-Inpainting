@@ -15,7 +15,7 @@ A suitable [conda](https://conda.io/) environment named `Subject-Inpainting` can
 and activated with:
 
 ```
-conda env create -f environment.yaml
+conda env create -f environment.yml
 conda activate Subject-Inpainting
 ```
 
@@ -34,7 +34,14 @@ conda activate lsa
 We provide the checkpoint ([Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view?usp=share_link) that is trained on [dreambooth](https://github.com/google/dreambooth) dataset. 
 
 ## Testing
+We support masking the input image with GUI based code.
+press 's' key to save the mask image.
+press 'esc' key to quit the program.
+The result image will be saved in examples/mask/ directory on the default.
+```
+python scripts/mask_img.py 
 
+```
 To sample from our model, you can use `scripts/inference.py`. For example, 
 ```
 python scripts/inference_origin.py --plms --outdir results --config configs/v1.yaml --ckpt checkpoints/model.ckpt --image_path examples/image/example_6.png --mask_path examples/mask/example_6.png --reference_path ./dataset/wolf/images/00.jpg --seed 321
@@ -59,9 +66,9 @@ python scripts/make_Bbox.py --target_dir [subject image directory] --text_prompt
 The data structure is like this:
 ```
 dataset
-subject-images
-│  ├── images
-│  ├── bbox
+│  subject-images
+│  │  ├── images
+│  │  ├── bbox
 ```
 
 ### Download the pretrained model of Paint-by-Example
