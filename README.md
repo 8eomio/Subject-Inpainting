@@ -44,7 +44,7 @@ python scripts/mask_img.py
 ```
 To sample from our model, you can use `scripts/inference.py`. For example, 
 ```
-python scripts/inference_origin.py --plms --outdir results --config configs/v1.yaml --ckpt checkpoints/model.ckpt --image_path examples/image/example_6.png --mask_path examples/mask/example_6.png --reference_path ./dataset/wolf/images/00.jpg --seed 321
+ python scripts/inference_cfg.py --plms --outdir results --pretrained_config configs/v1.yaml --config configs/v1_subject.yaml --ckpt ./models/yaja/2024-05-08T14-48-49_v1_subject/checkpoints/last.ckpt --image_path ./dataset/mjhouse4.jpg --pretrained_ckpt ~/Subject-Inpainting/checkpoints/model.ckpt --mask_path ./examples/mask/mask1new.png --reference_path ./dataset/yaja/images/KakaoTalk_20240508_124542531.jpg --seed 321
 
 ```
 
